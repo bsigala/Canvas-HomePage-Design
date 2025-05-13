@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SPCH 101 - Canvas Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9fafb;
+      margin: 20px;
+      color: #1f2937;
+    }
+    .enhanceable_content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 30px;
+    }
+    .enhanceable_content ul {
+      list-style: none;
+      padding-left: 0;
+      display: contents;
+    }
+    .tab-button {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #34495e;
+      color: #34495e;
+      box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.35);
+      transition: all 0.3s ease-in-out;
+    }
+    .tab-button:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+      background-color: #f1f5f9 !important;
+      color: #000000 !important;
+    }
+    h3 {
+      margin: 0;
+    }
+    .tab-section {
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+    .tab-section h2 {
+      text-align: center;
+    }
+    .tab-section p {
+      line-height: 1.6;
+    }
+    iframe, img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="enhanceable_content tabs">
+    <ul>
+      <li><h3><a class="tab-button" style="background-color: #dbeafe;" href="#tab-1" role="tab">Welcome</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #fef3c7;" href="#tab-2" role="tab">Course Info</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #dcfce7;" href="#tab-3" role="tab">Comm Policy</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #fce7f3;" href="#tab-4" role="tab">SLOs</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #e0f2fe;" href="#tab-5" role="tab">Materials</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #ede9fe;" href="#tab-6" role="tab">Expectations</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #fff1f2;" href="#tab-7" role="tab">Equity</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #fee2e2;" href="#tab-8" role="tab">Integrity</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #e0f2f1;" href="#tab-9" role="tab">Resources</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #f3f4f6;" href="#tab-10" role="tab">Grading</a></h3></li>
+      <li><h3><a class="tab-button" style="background-color: #ede9e8;" href="#tab-11" role="tab">Assignments</a></h3></li>
+    </ul>
+  </div>
+  <!-- Additional tab content would be inserted below -->
+  <div class="tab-section" id="tab-1">
+    <h2><strong>Welcome to Rio Hondo College!</strong></h2>
+    <p style="text-align: center;"><iframe class="lti-embed" style="width: 320px; height: 240px;" title="Welcome to SPCH COMM!" src="https://www.youtube-nocookie.com/embed/RPI4gNQnft8?feature=oembed&amp;rel=0" width="320" height="240" loading="lazy" allowfullscreen></iframe></p>
+    <p>Hello Everyone, I’m Benjamin Sigala, your instructor for this Public Speaking course! You will learn the fundamentals of public speaking by developing skills in researching, writing, delivery, using presentation aids, and more...</p>
+  </div>
+</body>
+</html>
